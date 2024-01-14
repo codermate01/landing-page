@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header,
+.footer{
+    background-color: #1F2937;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight:extra-bold;
+    color: #F9FAF8;
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.hero p,
+.header
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* .header{
+    display: flex;
+    flex-direction: column;
+} */
+.header-list{
+    display: flex;
+
+
+}
