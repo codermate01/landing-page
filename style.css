@@ -25,12 +25,20 @@ a{
     font-size: 18px;
     color: #E5E7EB;
 }
-/* .header{
+.container{
     display: flex;
-    flex-direction: column;
-} */
-.header-list{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.logo{
     display: flex;
-
-
+    /* flex: 1; */
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
 }
