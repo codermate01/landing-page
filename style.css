@@ -10,6 +10,8 @@ body{
     font-size: 48px;
     font-weight:extra-bold;
     color: #F9FAF8;
+    margin: 0;
+    /* padding: 0; */
 }
 li{
     list-style-type: none;
@@ -27,14 +29,12 @@ a{
 }
 .container{
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-around;
     
 }
 .logo{
     display: flex;
-    /* flex: 1; */
-    font-weight: bold;
+    font-weight: bolder;
 }
 ul{
     display: flex;
@@ -44,4 +44,63 @@ ul{
 }
 .hero{
     display: flex;
+    justify-content: space-evenly;
+    margin: 80px;
+}
+.left-side-hero{
+    max-width: 400px;
+
+}
+.left-side-hero p{
+    margin: 0;
+}
+.button-hero{
+    padding: 8px;
+    width: 25%;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.placeholder{
+    display: flex;
+    flex-basis: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6f76;
+}
+/* BODY */
+
+.text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+}
+.image{
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+
+
+}
+.image p{
+    max-width: 100px;
+    text-align: center;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
