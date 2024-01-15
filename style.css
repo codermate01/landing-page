@@ -42,3 +42,6 @@ ul{
     padding: 0;
     gap: 8px;
 }
+.hero{
+    display: flex;
+}
