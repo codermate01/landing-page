@@ -168,3 +168,10 @@ ul{
     padding: 8px 24px;
     font-weight: bolder;
 }
+/* FOOTER */
+.footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 11px;
+    color: white;
+}
