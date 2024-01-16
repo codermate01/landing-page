@@ -132,3 +132,39 @@ ul{
 .quote-container{
     max-width: 800px;
 }
+/* SIGN UP SIGN */
+.sign-up-container{
+    display: flex;
+    justify-content:center;
+    padding: 80px;
+    
+}
+.sign-up-sign{
+    display: flex;
+    flex: 1;
+    max-width: 800px;
+    padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    gap: 16px;
+}
+.sign-tittle{
+    font-weight: bolder;
+    font-size: larger;
+}
+.sign-text{
+    font-weight: lighter;
+    font-size: 12px;
+}
+.sign-button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-weight: bolder;
+}
