@@ -104,3 +104,31 @@ ul{
     justify-content: center;
     align-items: center;
 }
+/* QUOTE */
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex: 0;
+    flex-basis: content;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text p{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    /* text-align: left; */
+    margin: 0;
+}
+.quote-author{
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+
+}
+.quote-container{
+    max-width: 800px;
+}
